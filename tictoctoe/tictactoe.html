@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Tic Tac Toe
+        </title>
+		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+		 <script src="jquery.js"></script>    
+        <style>
+			td{
+			    height: 130px;
+			    width: 130px;
+			    text-align: center;
+			    outline: 2px solid gray;
+			    font-size: 70px;
+			    padding-bottom: 5px;
+			}
+        </style>
+    </head>
+    <body>
+        <div class="w3-container w3-mobile">
+            <header class="w3-container w3-padding-16 w3-mobile">
+                <h1 class="w3-center w3-mobile">Welcome to Tic Tac Toe</h1>
+ 				<div class="w3-third w3-center w3-hide-medium w3-hide-large  w3-mobile">
+            		 <button id='restart1' type="button" class="w3-button w3-white  w3-border w3-border-red w3-round" name="button">
+                    	Restart
+					</button>
+					<h3 id="turnoJugador2">dddd</h3>
+            	</div>
+            </header>
+            <div class="w3-panel">
+            	<div class="w3-third w3-center w3-hide-small  w3-mobile">
+            		 <button id='restart2' type="button" class="w3-button w3-white  w3-border w3-border-red w3-round" name="button">
+                    	Restart
+					</button>
+					<h3 id="turnoJugador"></h3>
+            	</div>
+            	<div class=" w3-rest w3-center w3-s1 w3-m1 w3-mobile">
+
+		            <table  id="tablero" class="w3-table w3-centered w3-mobile">
+		                <tr>
+		                    <td class="w3-display-hover"></td>
+		                    <td></td>
+		                    <td></td>
+		                </tr>
+		                <tr>
+		                    <td></td>
+		                    <td></td>
+		                    <td></td>
+		                </tr>
+		                <tr>
+		                    <td></td>
+		                    <td></td>
+		                    <td></td>
+		                </tr>
+					</table>
+					<h2 id="msjGanador"></h2>
+		        </div>
+        	</div>
+        </div>
+        <script src='myscript.js'></script>
+    </body>
+</html>
