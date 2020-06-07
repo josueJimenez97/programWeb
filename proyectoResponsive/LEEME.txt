@@ -1,0 +1,10 @@
+diferencias en cuenta a la usabilidad desde mi perpectiva...
+la idea responsiva para diferentes dispositivos me pare mas facil(menos lineas) hacerlo con
+boostrap, en w3css igual se entiende la idea del medium small large. 
+
+en cuanto a los colores...w3css dentro de lo que tiene ya incorporado tiene mas variedad de colores
+y me gusto mucho. en boostrap imagino que debo hacer mas cosas para conseguir mas colores....
+pero de todos modos tambien uno puede crearse su propio archivo css.
+
+a momento de escribir clases...boostrap tiene una abstraccion interesante, son menos palabras y hace lo mismo
+tal es el ejemplo del padding o el margin, en w3css hay que escribir un poco mas.
